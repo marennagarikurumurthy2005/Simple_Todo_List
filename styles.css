@@ -1,0 +1,24 @@
+/* Style for each todo item to align text and button in one line */
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #ddd;
+  margin-top: 8px;
+  border-radius: 4px;
+}
+
+/* Style for the delete button */
+.delete-button {
+  background-color: #ff6666;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.delete-button:hover {
+  background-color: #ff4d4d;
+}
